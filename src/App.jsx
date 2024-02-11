@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   const [quotes , setQuotes] = useState([])
-  const [quote , setQuote] = useState('')
+  const [quote , setQuote] = useState('Loading....')
 
   function getQuote(){
 
